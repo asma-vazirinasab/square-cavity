@@ -12,8 +12,8 @@ The simulation examines the effects of Reynolds number and geometric configurati
 
 ### Simulation Parameters
 
-* **Reynolds number (\(Re\)):** 10, 100, and 500.
-* **Geometry ratio (\(H/L\)):** 0.5, 1, and 2.
+* **Reynolds number (Re):** 10, 100, and 500.
+* **Geometry ratio (H/L):** 0.5, 1, and 2.
 * **Fluid model:** Viscous, incompressible fluid with constant density.
 * **Boundary conditions:** Inlet on the left, outlet at the lower-right boundary, and impermeable walls along the remaining boundaries.
 
