@@ -1,41 +1,24 @@
-# CFD Simulation of Incompressible Flow in a 90° Bend
+# Three-Dimensional Numerical Simulation of Incompressible Flow in a Cavity
 
 ## Project Overview
 
-This project investigates two-dimensional, steady, viscous, incompressible flow through a 90° bend using Computational Fluid Dynamics (CFD). The fluid is assumed to have constant density, with flow entering through the left boundary and exiting through the lower-right boundary. All other boundaries are treated as impermeable walls.
+This project investigates three-dimensional, viscous, incompressible flow in a cavity using numerical simulation. The governing Navier–Stokes equations are solved to analyse the effects of Reynolds number and cavity geometry on the flow field.
 
-The governing flow equations are solved numerically using an artificial compressibility, pressure-correction, or projection method to couple the velocity and pressure fields.
+## Simulation Parameters
 
-## Problem Description
-
-The simulation examines the effects of Reynolds number and geometric configuration on the flow field inside the bend.
-
-### Simulation Parameters
-
-* **Reynolds number (Re):** 10, 100, and 500.
-* **Geometry ratio (H/L):** 0.5, 1, and 2.
-* **Fluid model:** Viscous, incompressible fluid with constant density.
-* **Boundary conditions:** Inlet on the left, outlet at the lower-right boundary, and impermeable walls along the remaining boundaries.
-
-The Reynolds number is varied by adjusting the fluid viscosity while maintaining the other relevant flow conditions.
-
-## Numerical Method
-
-A numerical method for incompressible flow is implemented to obtain the velocity and pressure fields. The selected approach is used to enforce mass conservation and satisfy the incompressibility constraint.
+* **Reynolds number (Re):** 10, 100, and 500
+* **Cavity aspect ratio (H/L):** 0.5, 1, and 2
+* **Flow model:** Viscous, incompressible fluid with constant density
+* **Spatial domain:** Three-dimensional cavity
+* **Numerical method:** Numerical solution of the incompressible Navier–Stokes equations
 
 ## Objectives
 
-* Investigate the influence of Reynolds number on the flow field in a 90° bend.
-* Examine the effects of the geometric ratio \(H/L\) on the velocity distribution.
-* Study flow behaviour at low and moderate Reynolds numbers.
-* Implement a numerical method for solving the incompressible Navier–Stokes equations.
-* Compare flow fields across different Reynolds numbers and geometric configurations.
+* Investigate the influence of Reynolds number on three-dimensional cavity flow.
+* Examine the effect of cavity geometry on velocity distribution.
+* Analyse three-dimensional flow structures and recirculation regions.
+* Compare flow fields across different Reynolds numbers and cavity aspect ratios.
 
-## Expected Outputs
+## Results
 
-Depending on the implemented solver, the results may include:
-
-* Velocity contours and vector fields.
-* Pressure distribution.
-* Streamlines and recirculation regions.
-* Comparisons between different Reynolds numbers and geometry ratios.
+Results may include three-dimensional velocity fields, velocity contours, streamlines, pressure distributions, and comparisons across the simulated conditions.
